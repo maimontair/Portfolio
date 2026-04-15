@@ -125,8 +125,14 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'AWS', 'Node.js', 'WordPress'];
-
+  const skills = [
+    'TypeScript / Node.js',
+    'React / Remix',
+    'AWS (Step Functions, Lambda, ECS)',
+    'Terraform & Ansible',
+    'LLM Orchestration (Claude + GPT-4o)',
+    'PostgreSQL / Supabase',
+  ];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
       <h2 className="numbered-heading">About Me</h2>
@@ -135,30 +141,23 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Tair (tah-eer) and I enjoy creating things that live on the
-              internet. My interest in web development started back in 2012 when I decided to try
-              editing custom Tumblr themes — turns out hacking together a custom reblog button
-              taught me a lot about HTML &amp; CSS!
+              Hello! My name is Tair (tah-eer). I'm a software engineer with 7+ years of experience owning backend systems,
+              cloud infrastructure, and full-stack products across telehealth, fintech,
+              and AI. I care deeply about building things that are fault-tolerant,
+              cost-efficient, and easy to understand.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              These days I'm focused on the intersection of AI and automation. I founded{' '}
+              <a href="https://excerrastudio.com" className="inline-link">Excerra Studio</a>
+              , where I built an async Node.js pipeline that processes 3-hour videos in
+              under 20 minutes using smart LLM chaining with Claude and GPT-4o.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              Outside of code, I'm a triathlete, competitive swimmer, and scuba/free diver.
+              I tend to approach engineering the same way I approach endurance sport:
+              build the foundation right, then push the limits.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
