@@ -1,7 +1,7 @@
 ---
 date: '2025-07-01'
 title: 'Excerra Studio'
-cover: './screenshot.png'
+cover: './demo.png'
 github: 'https://github.com/yourusername/excerra'
 external: 'https://excerrastudio.com'
 tech:

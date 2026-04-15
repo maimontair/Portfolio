@@ -1,7 +1,7 @@
 ---
 date: '2'
 title: 'Pantry2Table'
-cover: './demo.png'
+cover: './demo1.png'
 github: 'https://github.com/maimontair/pantry2table'
 external: ''
 tech:
