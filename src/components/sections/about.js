@@ -128,10 +128,10 @@ const About = () => {
   const skills = [
     'TypeScript / Node.js',
     'React / Remix',
-    'AWS (Step Functions, Lambda, ECS)',
+    'AWS',
     'Terraform & Ansible',
-    'LLM Orchestration (Claude + GPT-4o)',
-    'PostgreSQL / Supabase',
+    'LLM Orchestration',
+    'PostgreSQL',
   ];
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,23 +141,25 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Tair (tah-eer). I'm a software engineer with 7+ years of experience owning backend systems,
-              cloud infrastructure, and full-stack products across telehealth, fintech,
-              and AI. I care deeply about building things that are fault-tolerant,
-              cost-efficient, and easy to understand.
+              Hello! My name is Tair (tah-eer). I'm a software engineer with 7+ years of experience
+              owning backend systems, cloud infrastructure, and full-stack products across
+              telehealth, fintech, and AI products. I care deeply about building things that are
+              fault-tolerant, cost-efficient, and easy to understand.
             </p>
 
             <p>
               These days I'm focused on the intersection of AI and automation. I founded{' '}
-              <a href="https://excerrastudio.com" className="inline-link">Excerra Studio</a>
-              , where I built an async Node.js pipeline that processes 3-hour videos in
-              under 20 minutes using smart LLM chaining with Claude and GPT-4o.
+              <a href="https://excerrastudio.com" className="inline-link">
+                Excerra Studio
+              </a>
+              , where I built an async Node.js pipeline that processes 3-hour videos in under 20
+              minutes using smart LLM chaining with Claude and GPT-4o.
             </p>
 
             <p>
-              Outside of code, I'm a triathlete, competitive swimmer, and scuba/free diver.
-              I tend to approach engineering the same way I approach endurance sport:
-              build the foundation right, then push the limits.
+              Outside of code, I'm a triathlete, competitive swimmer, and scuba/free diver. I tend
+              to approach engineering the same way I approach endurance sport: build the foundation
+              right, then push the limits.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
