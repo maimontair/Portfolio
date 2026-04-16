@@ -21,10 +21,10 @@ module.exports = {
       name: 'Experience',
       url: '/#jobs',
     },
-    {
-      name: 'Work',
-      url: '/#projects',
-    },
+    // {
+    //   name: 'Work',
+    //   url: '/#projects',
+    // },
     {
       name: 'Contact',
       url: '/#contact',
@@ -32,9 +32,9 @@ module.exports = {
   ],
 
   colors: {
-    green: '#e8975a',
-    navy: '#1a1714',
-    darkNavy: '#0e0c0a',
+    green: '#ad6e54',
+    navy: '#17191a',
+    darkNavy: '#111415',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({

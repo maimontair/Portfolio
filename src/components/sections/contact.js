@@ -5,12 +5,17 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledContactSection = styled.section`
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 600px;
-  margin: 0 auto 100px;
+  margin: 0 auto;
   text-align: center;
 
   @media (max-width: 768px) {
-    margin: 0 auto 50px;
+    min-height: 100vh;
   }
 
   .overline {
@@ -60,10 +65,9 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I'm currently open to senior engineering and founding engineer roles,
-        as well as consulting on backend architecture and AI pipeline design.
-        Whether you have a project, an opportunity, or just want to talk shop —
-        my inbox is always open.
+        I'm currently open to senior engineering and founding engineer roles, as well as consulting
+        on backend architecture and AI pipeline design. Whether you have a project, an opportunity,
+        or just want to talk shop — my inbox is always open.
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>
