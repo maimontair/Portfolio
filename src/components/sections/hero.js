@@ -67,7 +67,7 @@ const Hero = () => {
       <p>
         I’m a full-stack software engineer specializing in backend infrastructure, async pipelines,
         and AI-powered products. Currently building{' '}
-        <a href="https://exceraastudio.com/" target="_blank" rel="noreferrer">
+        <a href="https://excerra.studio" target="_blank" rel="noreferrer">
           Excerra Studio
         </a>
         , an AI platform that trasnforms long-form content into marketing assets for small

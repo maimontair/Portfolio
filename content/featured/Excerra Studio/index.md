@@ -2,8 +2,8 @@
 date: '2025-07-01'
 title: 'Excerra Studio'
 cover: './demo.png'
-github: 'https://github.com/yourusername/excerra'
-external: 'https://excerrastudio.com'
+github: ''
+external: 'https://excerra.studio'
 tech:
   - TypeScript
   - Node.js

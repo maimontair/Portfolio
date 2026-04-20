@@ -149,7 +149,7 @@ const About = () => {
 
             <p>
               These days I'm focused on the intersection of AI and automation. I founded{' '}
-              <a href="https://excerrastudio.com" className="inline-link">
+              <a href="https://excerra.studio" className="inline-link">
                 Excerra Studio
               </a>
               , where I built an async Node.js pipeline that processes 3-hour videos in under 20
