@@ -4,7 +4,7 @@ title: 'Founder & Engineer'
 company: 'Excerra Studio'
 location: 'Remote'
 range: 'July 2025 – Present'
-url: 'https://excerrastudio.com'
+url: 'https://excerra.studio'
 ---
 
 - Built an AI-powered content transformation platform that converts long-form webinars and courses into structured marketing assets and reusable documentation for small businesses.
